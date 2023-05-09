@@ -309,7 +309,10 @@
       },
       "kind": "StorageV2",
       "properties": {
-        "accessTier": "Hot"
+        "accessTier": "Hot",
+        "minimumTlsVersion": {
+          "value": "TLS1_2"
+        }
       }
     },
     {
