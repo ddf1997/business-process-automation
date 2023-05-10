@@ -310,6 +310,7 @@
       "kind": "StorageV2",
       "properties": {
         "accessTier": "Hot",
+        "allowBlobPublicAccess": "false",
         "minimumTlsVersion": {
           "value": "TLS1_2"
         }
