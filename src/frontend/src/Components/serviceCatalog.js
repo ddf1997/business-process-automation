@@ -329,6 +329,21 @@ export const sc = {
     //     "serviceSpecificConfig": { "to":"es"},
     //     "serviceSpecificConfigDefaults": {}
     // },
+      "JsonArray": {
+        "bpaServiceId": "abc123",
+        "inputTypes": [
+            "start"
+        ],
+        "outputTypes": [
+            "jsonArray"
+        ],
+        "image": layoutLogo,
+        "label": "Json Array",
+        "name": "jsonArray",
+        "serviceSpecificConfig": {},
+        "serviceSpecificConfigDefaults": {},
+        getPrice : noCharge
+    },
     "video": {
         "bpaServiceId": "abc123",
         "inputTypes": [
